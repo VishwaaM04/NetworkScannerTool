@@ -1,0 +1,20 @@
+# Network Scanner Tool - Python Requirements
+# Standard library modules are built-in, no external dependencies required
+# Optional packages for enhanced functionality:
+
+# For advanced network scanning
+nmap==0.0.1
+
+# For colored terminal output (optional)
+colorama==0.4.6
+
+# For argument parsing (optional)
+click==8.1.7
+
+# Note: Core functionality uses only Python standard library:
+# - socket: TCP/UDP socket programming
+# - subprocess: Execute system commands (nmap)
+# - threading: Multi-threaded scanning
+# - ipaddress: IP address manipulation
+# - datetime: Timestamp generation
+# - collections: Data structures
